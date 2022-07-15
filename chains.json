@@ -5963,7 +5963,49 @@
 				"PlusGasPricePercentage": 1,
 				"DisableSwap": false,
 				"IsDelegateContract": false
+			},
+		"OpenX": {
+			"srcChainID": "1666600000",
+			"destChainID": "137",
+			"PairID": "OpenX",
+			"SrcToken": {
+				"ID": "OPENX",
+				"Name": "OpenSwap Token - OpenX",
+				"Symbol": "OpenX",
+				"Decimals": 18,
+				"Description": "OpenSwap's OpenX Token",
+                "DepositAddress": "0x668b9734FfE9eE8a01d4Ade3362De71E8989EA87",
+			    "mpcAddress": "0x668b9734FfE9eE8a01d4Ade3362De71E8989EA87",
+				"ContractAddress": "0x01A4b054110d57069c1658AFBC46730529A3E326",
+				"MaximumSwap": 2000000,
+				"MinimumSwap": 0.0001,
+				"BigValueThreshold": 1,
+				"SwapFeeRate": 0,
+				"MaximumSwapFee": 0,
+				"MinimumSwapFee": 0,
+				"PlusGasPricePercentage": 5,
+				"DisableSwap": false,
+				"IsDelegateContract": false
+			},
+			"DestToken": {
+				"ID": "OPENX_POLYGON",
+				"Name": "OpenX - MultiChain Bridged Asset",
+				"Symbol": "OpenX",
+				"Decimals": 18,
+				"Description": "OpenSwap's OpenX Token",
+				"mpcAddress": "0x668b9734FfE9eE8a01d4Ade3362De71E8989EA87",
+				"ContractAddress": "0xe1abd2315eb6bcbcd669eda960481ad2419b2577",
+				"MaximumSwap": 2000000,
+				"MinimumSwap": 0.0001,
+				"BigValueThreshold": 1,
+				"SwapFeeRate": 0,
+				"MaximumSwapFee": 0,
+				"MinimumSwapFee": 0,
+				"PlusGasPricePercentage": 5,
+				"DisableSwap": false,
+				"IsDelegateContract": false
 			}
+		}
 		}
 	},
 	"250": {
@@ -8071,6 +8113,48 @@
 				"MaximumSwapFee": 0.03,
 				"MinimumSwapFee": 0.003,
 				"PlusGasPricePercentage": 1,
+				"DisableSwap": false,
+				"IsDelegateContract": false
+			}
+		},
+		"OpenX": {
+			"srcChainID": "1666600000",
+			"destChainID": "250",
+			"PairID": "OpenX",
+			"SrcToken": {
+				"ID": "OPENX",
+				"Name": "OpenSwap Token - OpenX",
+				"Symbol": "OpenX",
+				"Decimals": 18,
+				"Description": "OpenSwap's OpenX Token",
+                "DepositAddress": "0xC564EE9f21Ed8A2d8E7e76c085740d5e4c5FaFbE",
+			    "mpcAddress": "0xC564EE9f21Ed8A2d8E7e76c085740d5e4c5FaFbE",
+				"ContractAddress": "0x01A4b054110d57069c1658AFBC46730529A3E326",
+				"MaximumSwap": 2000000,
+				"MinimumSwap": 0.0001,
+				"BigValueThreshold": 1,
+				"SwapFeeRate": 0,
+				"MaximumSwapFee": 0,
+				"MinimumSwapFee": 0,
+				"PlusGasPricePercentage": 5,
+				"DisableSwap": false,
+				"IsDelegateContract": false
+			},
+			"DestToken": {
+				"ID": "OPENX_FTM",
+				"Name": "OpenX - MultiChain Bridged Asset",
+				"Symbol": "OpenX",
+				"Decimals": 18,
+				"Description": "OpenSwap's OpenX Token",
+				"mpcAddress": "0xC564EE9f21Ed8A2d8E7e76c085740d5e4c5FaFbE",
+				"ContractAddress": "0xe1abd2315eb6bcbcd669eda960481ad2419b2577",
+				"MaximumSwap": 2000000,
+				"MinimumSwap": 0.0001,
+				"BigValueThreshold": 1,
+				"SwapFeeRate": 0,
+				"MaximumSwapFee": 0,
+				"MinimumSwapFee": 0,
+				"PlusGasPricePercentage": 5,
 				"DisableSwap": false,
 				"IsDelegateContract": false
 			}
